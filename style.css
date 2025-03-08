@@ -4,9 +4,47 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Estilos para el header*/
+.header {
+    background: linear-gradient(#4B3425, #6b4b36);
+    color: #fffff7;
+    display: flex;
+}
+.logo {
+    width: 30%;
+}
+.logo img {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 2vw;
+    height: 80px;
+}
+.navbar {
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    padding: 3px;
+    margin-right: 6vw;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 2vw;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fffff7;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .intro {
     background: #8F896B;
-    color: #ffe0c5;
+    color: #fffff7;
     height: auto;
     display: flex;
     justify-content: right;
